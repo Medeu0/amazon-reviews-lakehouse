@@ -1,0 +1,30 @@
+# Data files
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables
+.env
+
+# Spark
+.sparkStaging/
+metastore_db/
+derby.log
+
+# dbt
+dbt/**/target/
+dbt/**/logs/
+dbt/**/dbt_packages/
+
+# Airflow
+airflow/logs/*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
