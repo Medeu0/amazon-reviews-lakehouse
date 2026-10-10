@@ -22,6 +22,7 @@ dbt/**/dbt_packages/
 
 # Airflow
 airflow/logs/*
+airflow/config/simple_auth_passwords.json
 
 # IDE / OS
 .vscode/
